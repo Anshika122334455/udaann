@@ -101,7 +101,7 @@
             .preloader {
                 width: 100%;
                 height: 100%;
-                background: radial-gradient(circle at 30% 40%, #6b6d94, #52547c);
+                background: radial-gradient(circle at 30% 40%, #2a2a2a, #1a1a1a);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -129,17 +129,17 @@
             }
 
             .wave-1 {
-                fill: rgba(239, 162, 134, 0.4);
+                fill: rgba(130, 187, 210, 0.4);
                 animation-delay: 0s;
             }
 
             .wave-2 {
-                fill: rgba(239, 162, 134, 0.3);
+                fill: rgba(130, 187, 210, 0.3);
                 animation-delay: -2s;
             }
 
             .wave-3 {
-                fill: rgba(239, 162, 134, 0.2);
+                fill: rgba(130, 187, 210, 0.2);
                 animation-delay: -4s;
             }
 
@@ -183,7 +183,7 @@
             .liquid-circle {
                 position: absolute;
                 border-radius: 50%;
-                background: radial-gradient(circle, rgba(239, 162, 134, 0.6), transparent);
+                background: radial-gradient(circle, rgba(130, 187, 210, 0.6), transparent);
                 animation: liquidMorph 4s ease-in-out infinite;
             }
 
@@ -238,7 +238,7 @@
                 height: auto;
                 z-index: 2;
                 animation: logoLiquid 5s ease-in-out infinite;
-                filter: drop-shadow(0 10px 40px rgba(239, 162, 134, 0.6));
+                filter: drop-shadow(0 10px 40px rgba(130, 187, 210, 0.6));
             }
 
             @keyframes logoLiquid {
@@ -275,7 +275,7 @@
                 position: absolute;
                 width: 100%;
                 height: 100%;
-                border: 4px solid #efa286;
+                border: 4px solid #82bbd2;
                 border-radius: 50%;
                 opacity: 0;
                 animation: rippleEffect 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
@@ -318,8 +318,8 @@
                 font-weight: 700;
                 animation: letterFlow 2s ease-in-out infinite;
                 text-shadow:
-                    0 0 20px rgba(239, 162, 134, 0.8),
-                    0 0 40px rgba(239, 162, 134, 0.5),
+                    0 0 20px rgba(130, 187, 210, 0.8),
+                    0 0 40px rgba(130, 187, 210, 0.5),
                     0 5px 15px rgba(0, 0, 0, 0.3);
                 position: relative;
             }
@@ -329,7 +329,7 @@
                 position: absolute;
                 left: 0;
                 top: 0;
-                color: #efa286;
+                color: #82bbd2;
                 filter: blur(8px);
                 z-index: -1;
                 animation: glowFlow 2s ease-in-out infinite;
@@ -387,7 +387,7 @@
                 height: 50px;
                 position: relative;
                 overflow: hidden;
-                border: 2px solid rgba(239, 162, 134, 0.3);
+                border: 2px solid rgba(130, 187, 210, 0.3);
                 border-radius: 25px;
                 background: rgba(82, 84, 124, 0.3);
             }
@@ -395,13 +395,13 @@
             .progress-wave {
                 width: 400px;
                 height: 100px;
-                background: linear-gradient(90deg, #efa286, #ffffff, #efa286);
+                background: linear-gradient(90deg, #82bbd2, #ffffff, #82bbd2);
                 position: absolute;
                 top: -25px;
                 left: -100px;
                 border-radius: 40%;
                 animation: waveProgress 3s ease-in-out infinite;
-                box-shadow: 0 0 30px rgba(239, 162, 134, 0.6);
+                box-shadow: 0 0 30px rgba(130, 187, 210, 0.6);
             }
 
             @keyframes waveProgress {
@@ -427,18 +427,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background: rgba(239, 162, 134, 0.2);
+                background: rgba(130, 187, 210, 0.2);
                 backdrop-filter: blur(10px);
-                border: 2px solid #efa286;
+                border: 2px solid #82bbd2;
                 border-radius: 50%;
                 transition: all 0.4s ease;
                 z-index: 10000;
             }
 
             .preloader-close:hover {
-                background: #efa286;
+                background: #82bbd2;
                 transform: rotate(90deg) scale(1.2);
-                box-shadow: 0 8px 30px rgba(239, 162, 134, 0.8);
+                box-shadow: 0 8px 30px rgba(130, 187, 210, 0.8);
             }
 
             /* Responsive */
@@ -663,7 +663,7 @@
                                             <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                                 <div class="single-progress-box wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                                     <div class="box">
-                                                        <div class="piechart" data-fg-color="#efa286" data-value=".85">
+                                                        <div class="piechart" data-fg-color="#82bbd2" data-value=".85">
                                                             <span>.85</span>
                                                         </div>
                                                     </div>
@@ -673,7 +673,7 @@
                                             <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                                 <div class="single-progress-box wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                                     <div class="box">
-                                                        <div class="piechart" data-fg-color="#efa286" data-value=".90">
+                                                        <div class="piechart" data-fg-color="#82bbd2" data-value=".90">
                                                             <span>.90</span>
                                                         </div>
                                                     </div>
@@ -683,7 +683,7 @@
                                             <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                                 <div class="single-progress-box wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                                     <div class="box">
-                                                        <div class="piechart" data-fg-color="#efa286" data-value=".88">
+                                                        <div class="piechart" data-fg-color="#82bbd2" data-value=".88">
                                                             <span>.88</span>
                                                         </div>
                                                     </div>
@@ -716,16 +716,16 @@
 
                 <!-- Animated Shapes -->
                 <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 2; overflow: hidden; pointer-events: none;">
-                    <div style="position: absolute; background: #efa286; opacity: 0.08; border-radius: 50%; width: 300px; height: 300px; top: -100px; left: -100px; animation: float1 20s infinite ease-in-out;"></div>
-                    <div style="position: absolute; background: #efa286; opacity: 0.08; border-radius: 50%; width: 400px; height: 400px; bottom: -150px; right: -150px; animation: float2 20s infinite ease-in-out;"></div>
-                    <div style="position: absolute; background: #efa286; opacity: 0.08; border-radius: 50%; width: 200px; height: 200px; top: 50%; left: 50%; transform: translate(-50%, -50%); animation: float3 20s infinite ease-in-out;"></div>
+                    <div style="position: absolute; background: #82bbd2; opacity: 0.08; border-radius: 50%; width: 300px; height: 300px; top: -100px; left: -100px; animation: float1 20s infinite ease-in-out;"></div>
+                    <div style="position: absolute; background: #82bbd2; opacity: 0.08; border-radius: 50%; width: 400px; height: 400px; bottom: -150px; right: -150px; animation: float2 20s infinite ease-in-out;"></div>
+                    <div style="position: absolute; background: #82bbd2; opacity: 0.08; border-radius: 50%; width: 200px; height: 200px; top: 50%; left: 50%; transform: translate(-50%, -50%); animation: float3 20s infinite ease-in-out;"></div>
                 </div>
 
                 <div style="position: relative; z-index: 3; max-width: 1200px; margin: 0 auto; padding: 0 15px; width: 100%;">
                     <!-- Section Title -->
                     <div style="margin-bottom: 60px; text-align: center;">
-                        <i class="flaticon-brain-1" style="font-size: 60px; color: #efa286; margin-bottom: 20px; display: inline-block; filter: drop-shadow(0 0 20px rgba(239, 162, 134, 0.4)); animation: pulse 2s infinite ease-in-out;"></i>
-                        <h6 style="font-size: 16px; font-weight: 600; color: #efa286; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 15px; text-shadow: 0 0 10px rgba(239, 162, 134, 0.3); animation: fadeInUp 0.8s ease forwards 0.2s; opacity: 0;">Our Achievements</h6>
+                        <i class="flaticon-brain-1" style="font-size: 60px; color: #82bbd2; margin-bottom: 20px; display: inline-block; filter: drop-shadow(0 0 20px rgba(130, 187, 210, 0.4)); animation: pulse 2s infinite ease-in-out;"></i>
+                        <h6 style="font-size: 16px; font-weight: 600; color: #82bbd2; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 15px; text-shadow: 0 0 10px rgba(130, 187, 210, 0.3); animation: fadeInUp 0.8s ease forwards 0.2s; opacity: 0;">Our Achievements</h6>
                         <h2 style="font-size: 42px; font-weight: 700; color: #ffffff; margin: 0; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); animation: fadeInUp 0.8s ease forwards 0.4s; opacity: 0;">Impact Numbers That Matter</h2>
                     </div>
 
@@ -736,20 +736,20 @@
                         <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px; display: flex; justify-content: center; align-items: stretch; padding: 0 15px;">
                             <div style="opacity: 0; transform: translateY(50px); animation: slideInUp 0.8s ease forwards 0.6s; width: 100%; max-width: 280px; margin: 0 auto;">
                                 <div style="background: #ffffff; border-radius: 20px; padding: 35px 20px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 3px solid transparent; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); height: 380px; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;"
-                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #efa286'; this.style.borderColor='#efa286'; this.querySelector('.count-text-1').style.color='#efa286';"
+                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #82bbd2'; this.style.borderColor='#82bbd2'; this.querySelector('.count-text-1').style.color='#82bbd2';"
                                     onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.3)'; this.style.borderColor='transparent'; this.querySelector('.count-text-1').style.color='#000000';">
 
                                     <!-- Shine Effect -->
-                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(239, 162, 134, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
+                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(130, 187, 210, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
 
                                     <!-- Bottom Line -->
-                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #efa286, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
+                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #82bbd2, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
 
                                     <!-- Icon Circle -->
                                     <div style="position: relative; width: 110px; height: 110px; margin: 0 auto 25px; flex-shrink: 0;">
-                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(239, 162, 134, 0.3));" viewBox="0 0 100 100">
+                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(130, 187, 210, 0.3));" viewBox="0 0 100 100">
                                             <circle style="fill: none; stroke: #f0f0f0; stroke-width: 4;" cx="50" cy="50" r="45"></circle>
-                                            <circle style="fill: none; stroke: #efa286; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 0.8s; filter: drop-shadow(0 0 8px rgba(239, 162, 134, 0.4));" cx="50" cy="50" r="45"></circle>
+                                            <circle style="fill: none; stroke: #82bbd2; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 0.8s; filter: drop-shadow(0 0 8px rgba(130, 187, 210, 0.4));" cx="50" cy="50" r="45"></circle>
                                         </svg>
                                         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 46px; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); animation: bounceIn 0.6s ease 0.6s backwards;">👥</div>
                                     </div>
@@ -757,7 +757,7 @@
                                     <!-- Counter -->
                                     <div style="margin-bottom: 12px; flex-shrink: 0;">
                                         <span class="count-text count-text-1" data-speed="2000" data-stop="500000" style="font-size: 44px; font-weight: 700; color: #000000; line-height: 1; display: inline-block; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05); transition: color 0.3s ease;">0</span>
-                                        <span style="font-size: 38px; font-weight: 700; color: #efa286; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
+                                        <span style="font-size: 38px; font-weight: 700; color: #82bbd2; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
                                     </div>
 
                                     <!-- Label -->
@@ -770,23 +770,23 @@
                         <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px; display: flex; justify-content: center; align-items: stretch; padding: 0 15px;">
                             <div style="opacity: 0; transform: translateY(50px); animation: slideInUp 0.8s ease forwards 0.8s; width: 100%; max-width: 280px; margin: 0 auto;">
                                 <div style="background: #ffffff; border-radius: 20px; padding: 35px 20px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 3px solid transparent; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); height: 380px; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;"
-                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #efa286'; this.style.borderColor='#efa286'; this.querySelector('.count-text-2').style.color='#efa286';"
+                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #82bbd2'; this.style.borderColor='#82bbd2'; this.querySelector('.count-text-2').style.color='#82bbd2';"
                                     onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.3)'; this.style.borderColor='transparent'; this.querySelector('.count-text-2').style.color='#000000';">
 
-                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(239, 162, 134, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
-                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #efa286, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
+                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(130, 187, 210, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
+                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #82bbd2, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
 
                                     <div style="position: relative; width: 110px; height: 110px; margin: 0 auto 25px; flex-shrink: 0;">
-                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(239, 162, 134, 0.3));" viewBox="0 0 100 100">
+                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(130, 187, 210, 0.3));" viewBox="0 0 100 100">
                                             <circle style="fill: none; stroke: #f0f0f0; stroke-width: 4;" cx="50" cy="50" r="45"></circle>
-                                            <circle style="fill: none; stroke: #efa286; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 1s; filter: drop-shadow(0 0 8px rgba(239, 162, 134, 0.4));" cx="50" cy="50" r="45"></circle>
+                                            <circle style="fill: none; stroke: #82bbd2; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 1s; filter: drop-shadow(0 0 8px rgba(130, 187, 210, 0.4));" cx="50" cy="50" r="45"></circle>
                                         </svg>
                                         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 46px; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); animation: bounceIn 0.6s ease 0.8s backwards;">🏥</div>
                                     </div>
 
                                     <div style="margin-bottom: 12px; flex-shrink: 0;">
                                         <span class="count-text count-text-2" data-speed="2000" data-stop="15000" style="font-size: 44px; font-weight: 700; color: #000000; line-height: 1; display: inline-block; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05); transition: color 0.3s ease;">0</span>
-                                        <span style="font-size: 38px; font-weight: 700; color: #efa286; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
+                                        <span style="font-size: 38px; font-weight: 700; color: #82bbd2; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
                                     </div>
 
                                     <p style="font-size: 15px; color: #333333; margin: 0; font-weight: 600; letter-spacing: 0.5px; position: relative; z-index: 1; line-height: 1.4; padding: 0 10px; min-height: 42px; display: flex; align-items: center; justify-content: center; transition: color 0.3s ease;">Patients Under Care</p>
@@ -798,23 +798,23 @@
                         <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px; display: flex; justify-content: center; align-items: stretch; padding: 0 15px;">
                             <div style="opacity: 0; transform: translateY(50px); animation: slideInUp 0.8s ease forwards 1s; width: 100%; max-width: 280px; margin: 0 auto;">
                                 <div style="background: #ffffff; border-radius: 20px; padding: 35px 20px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 3px solid transparent; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); height: 380px; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;"
-                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #efa286'; this.style.borderColor='#efa286'; this.querySelector('.count-text-3').style.color='#efa286';"
+                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #82bbd2'; this.style.borderColor='#82bbd2'; this.querySelector('.count-text-3').style.color='#82bbd2';"
                                     onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.3)'; this.style.borderColor='transparent'; this.querySelector('.count-text-3').style.color='#000000';">
 
-                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(239, 162, 134, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
-                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #efa286, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
+                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(130, 187, 210, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
+                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #82bbd2, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
 
                                     <div style="position: relative; width: 110px; height: 110px; margin: 0 auto 25px; flex-shrink: 0;">
-                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(239, 162, 134, 0.3));" viewBox="0 0 100 100">
+                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(130, 187, 210, 0.3));" viewBox="0 0 100 100">
                                             <circle style="fill: none; stroke: #f0f0f0; stroke-width: 4;" cx="50" cy="50" r="45"></circle>
-                                            <circle style="fill: none; stroke: #efa286; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 1.2s; filter: drop-shadow(0 0 8px rgba(239, 162, 134, 0.4));" cx="50" cy="50" r="45"></circle>
+                                            <circle style="fill: none; stroke: #82bbd2; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 1.2s; filter: drop-shadow(0 0 8px rgba(130, 187, 210, 0.4));" cx="50" cy="50" r="45"></circle>
                                         </svg>
                                         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 46px; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); animation: bounceIn 0.6s ease 1s backwards;">🎓</div>
                                     </div>
 
                                     <div style="margin-bottom: 12px; flex-shrink: 0;">
                                         <span class="count-text count-text-3" data-speed="2000" data-stop="2000" style="font-size: 44px; font-weight: 700; color: #000000; line-height: 1; display: inline-block; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05); transition: color 0.3s ease;">0</span>
-                                        <span style="font-size: 38px; font-weight: 700; color: #efa286; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
+                                        <span style="font-size: 38px; font-weight: 700; color: #82bbd2; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
                                     </div>
 
                                     <p style="font-size: 15px; color: #333333; margin: 0; font-weight: 600; letter-spacing: 0.5px; position: relative; z-index: 1; line-height: 1.4; padding: 0 10px; min-height: 42px; display: flex; align-items: center; justify-content: center; transition: color 0.3s ease;">Healthcare Workers Trained</p>
@@ -826,23 +826,23 @@
                         <div class="col-lg-3 col-md-6 col-sm-12" style="margin-bottom: 30px; display: flex; justify-content: center; align-items: stretch; padding: 0 15px;">
                             <div style="opacity: 0; transform: translateY(50px); animation: slideInUp 0.8s ease forwards 1.2s; width: 100%; max-width: 280px; margin: 0 auto;">
                                 <div style="background: #ffffff; border-radius: 20px; padding: 35px 20px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 3px solid transparent; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); height: 380px; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;"
-                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #efa286'; this.style.borderColor='#efa286'; this.querySelector('.count-text-4').style.color='#efa286';"
+                                    onmouseover="this.style.transform='translateY(-15px) scale(1.02)'; this.style.boxShadow='0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 3px #82bbd2'; this.style.borderColor='#82bbd2'; this.querySelector('.count-text-4').style.color='#82bbd2';"
                                     onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.3)'; this.style.borderColor='transparent'; this.querySelector('.count-text-4').style.color='#000000';">
 
-                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(239, 162, 134, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
-                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #efa286, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
+                                    <div style="content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(130, 187, 210, 0.1), transparent); transition: left 0.6s ease; pointer-events: none;"></div>
+                                    <div style="content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, transparent, #82bbd2, transparent); transform: scaleX(0); transition: transform 0.4s ease;"></div>
 
                                     <div style="position: relative; width: 110px; height: 110px; margin: 0 auto 25px; flex-shrink: 0;">
-                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(239, 162, 134, 0.3));" viewBox="0 0 100 100">
+                                        <svg style="width: 100%; height: 100%; transform: rotate(-90deg); filter: drop-shadow(0 4px 10px rgba(130, 187, 210, 0.3));" viewBox="0 0 100 100">
                                             <circle style="fill: none; stroke: #f0f0f0; stroke-width: 4;" cx="50" cy="50" r="45"></circle>
-                                            <circle style="fill: none; stroke: #efa286; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 1.4s; filter: drop-shadow(0 0 8px rgba(239, 162, 134, 0.4));" cx="50" cy="50" r="45"></circle>
+                                            <circle style="fill: none; stroke: #82bbd2; stroke-width: 4; stroke-dasharray: 283; stroke-dashoffset: 283; stroke-linecap: round; animation: progressAnim 2s ease-in-out forwards 1.4s; filter: drop-shadow(0 0 8px rgba(130, 187, 210, 0.4));" cx="50" cy="50" r="45"></circle>
                                         </svg>
                                         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 46px; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); animation: bounceIn 0.6s ease 1.2s backwards;">⭐</div>
                                     </div>
 
                                     <div style="margin-bottom: 12px; flex-shrink: 0;">
                                         <span class="count-text count-text-4" data-speed="2000" data-stop="10" style="font-size: 44px; font-weight: 700; color: #000000; line-height: 1; display: inline-block; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05); transition: color 0.3s ease;">0</span>
-                                        <span style="font-size: 38px; font-weight: 700; color: #efa286; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
+                                        <span style="font-size: 38px; font-weight: 700; color: #82bbd2; margin-left: 5px; display: inline-block; animation: bounceSign 1.5s infinite ease-in-out;">+</span>
                                     </div>
 
                                     <p style="font-size: 15px; color: #333333; margin: 0; font-weight: 600; letter-spacing: 0.5px; position: relative; z-index: 1; line-height: 1.4; padding: 0 10px; min-height: 42px; display: flex; align-items: center; justify-content: center; transition: color 0.3s ease;">Years of Impact</p>

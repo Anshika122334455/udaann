@@ -454,7 +454,7 @@
                                         <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                             <div class="single-progress-box">
                                                 <div class="box">
-                                                    <div class="piechart" data-fg-color="#efa286" data-value=".90">
+                                                    <div class="piechart" data-fg-color="#82bbd2" data-value=".90">
                                                         <span>.90</span>
                                                     </div>
                                                 </div>
@@ -464,7 +464,7 @@
                                         <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                             <div class="single-progress-box">
                                                 <div class="box">
-                                                    <div class="piechart" data-fg-color="#efa286" data-value=".85">
+                                                    <div class="piechart" data-fg-color="#82bbd2" data-value=".85">
                                                         <span>.85</span>
                                                     </div>
                                                 </div>
@@ -474,7 +474,7 @@
                                         <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                             <div class="single-progress-box">
                                                 <div class="box">
-                                                    <div class="piechart" data-fg-color="#efa286" data-value=".88">
+                                                    <div class="piechart" data-fg-color="#82bbd2" data-value=".88">
                                                         <span>.88</span>
                                                     </div>
                                                 </div>
