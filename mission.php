@@ -80,7 +80,7 @@
             .preloader {
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(135deg, #52547c 0%, #5e6090 100%);
+                background: linear-gradient(135deg, #1a1a1a 0%, #222222 100%);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -111,7 +111,7 @@
                 width: 140px;
                 height: auto;
                 animation: logoGlow 3s ease-in-out infinite;
-                filter: drop-shadow(0 0 30px rgba(239, 162, 134, 0.6)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+                filter: drop-shadow(0 0 30px rgba(130, 187, 210, 0.6)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
             }
 
             @keyframes fadeInDown {
@@ -130,12 +130,12 @@
 
                 0%,
                 100% {
-                    filter: drop-shadow(0 0 20px rgba(239, 162, 134, 0.6)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+                    filter: drop-shadow(0 0 20px rgba(130, 187, 210, 0.6)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
                     transform: translateY(0);
                 }
 
                 50% {
-                    filter: drop-shadow(0 0 40px rgba(239, 162, 134, 0.9)) drop-shadow(0 15px 30px rgba(0, 0, 0, 0.4));
+                    filter: drop-shadow(0 0 40px rgba(130, 187, 210, 0.9)) drop-shadow(0 15px 30px rgba(0, 0, 0, 0.4));
                     transform: translateY(-10px);
                 }
             }
@@ -145,10 +145,10 @@
                 width: 80px;
                 height: 80px;
                 border: 4px solid rgba(255, 255, 255, 0.1);
-                border-top: 4px solid #efa286;
+                border-top: 4px solid #82bbd2;
                 border-radius: 50%;
                 animation: spin 1s linear infinite;
-                box-shadow: 0 0 30px rgba(239, 162, 134, 0.5);
+                box-shadow: 0 0 30px rgba(130, 187, 210, 0.5);
             }
 
             @keyframes spin {
@@ -174,7 +174,7 @@
                 font-size: 48px;
                 font-weight: 300;
                 animation: letterFloat 1.5s ease-in-out infinite;
-                text-shadow: 0 0 20px rgba(239, 162, 134, 0.6),
+                text-shadow: 0 0 20px rgba(130, 187, 210, 0.6),
                     0 5px 10px rgba(0, 0, 0, 0.3);
             }
 
@@ -208,7 +208,7 @@
 
                 50% {
                     transform: translateY(-15px);
-                    color: #efa286;
+                    color: #82bbd2;
                 }
             }
 
@@ -225,19 +225,19 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background: rgba(239, 162, 134, 0.15);
+                background: rgba(130, 187, 210, 0.15);
                 backdrop-filter: blur(10px);
-                border: 2px solid rgba(239, 162, 134, 0.4);
+                border: 2px solid rgba(130, 187, 210, 0.4);
                 border-radius: 50%;
                 transition: all 0.3s ease;
                 z-index: 10000;
             }
 
             .preloader-close:hover {
-                background: #efa286;
-                border-color: #efa286;
+                background: #82bbd2;
+                border-color: #82bbd2;
                 transform: rotate(90deg) scale(1.1);
-                box-shadow: 0 5px 20px rgba(239, 162, 134, 0.6);
+                box-shadow: 0 5px 20px rgba(130, 187, 210, 0.6);
             }
 
             /* ==================== RESPONSIVE ==================== */
@@ -474,7 +474,7 @@
                                             <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                                 <div class="single-progress-box wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                                     <div class="box">
-                                                        <div class="piechart" data-fg-color="#efa286" data-value=".90">
+                                                        <div class="piechart" data-fg-color="#82bbd2" data-value=".90">
                                                             <span>.90</span>
                                                         </div>
                                                     </div>
@@ -484,7 +484,7 @@
                                             <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                                 <div class="single-progress-box wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                                     <div class="box">
-                                                        <div class="piechart" data-fg-color="#efa286" data-value=".85">
+                                                        <div class="piechart" data-fg-color="#82bbd2" data-value=".85">
                                                             <span>.85</span>
                                                         </div>
                                                     </div>
@@ -494,7 +494,7 @@
                                             <div class="col-lg-4 col-md-6 col-sm-12 progress-block">
                                                 <div class="single-progress-box wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                                     <div class="box">
-                                                        <div class="piechart" data-fg-color="#efa286" data-value=".88">
+                                                        <div class="piechart" data-fg-color="#82bbd2" data-value=".88">
                                                             <span>.88</span>
                                                         </div>
                                                     </div>

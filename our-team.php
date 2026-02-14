@@ -52,7 +52,7 @@
 
         .team-card .card-inner:hover {
             transform: translateX(5px);
-            border-left-color: #efa286;
+            border-left-color: #82bbd2;
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
         }
 
@@ -60,7 +60,7 @@
             width: 55px;
             height: 55px;
             min-width: 55px;
-            background: #efa286;
+            background: #82bbd2;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -108,7 +108,7 @@
 
         .name-card .name-inner:hover {
             transform: translateX(5px);
-            border-left-color: #efa286;
+            border-left-color: #82bbd2;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
@@ -116,7 +116,7 @@
             width: 10px;
             height: 10px;
             min-width: 10px;
-            background: #efa286;
+            background: #82bbd2;
             border-radius: 50%;
             margin-right: 15px;
         }
@@ -152,7 +152,7 @@
             transform: translateX(-50%);
             width: 60px;
             height: 3px;
-            background: #efa286;
+            background: #82bbd2;
         }
 
         .category-title p {
